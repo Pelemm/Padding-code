@@ -1,0 +1,51 @@
+/*Trying css styling again*/
+/* *{
+   ;
+} */
+h2{
+    font-size: 25px;color:white;
+}
+h4{
+    font-size: 15px;color: aqua;
+}
+.bull{
+    color: red;
+}
+#logo{
+    color: purple;
+}
+body{
+    background-image: url(/IMG-20211128-WA0004.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#para{
+    background: linear-gradient(to right,red,orange,yellow,green,blue,indigo,violet);
+    height: 70px;
+}
+ul li{
+    transition: 1s ease-in;
+}
+ul li:hover{
+    background-color: red;
+    /*transform: rotateZ(50deg);*/
+    transform: translate(70px, -100px);
+}
+div{
+    animation-name: thanks;
+    animation-duration: 4s;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    background-color: blue;
+}
+@keyframes thanks{
+    0%{background-color: blue;}
+    25%{background-color: yellow;}
+    50%{background-color: green;}
+    75%{background-color: red;}
+    100%{background-color:purple;}
+}
+.Thankyou{
+    padding: 33px 11px ;
+}

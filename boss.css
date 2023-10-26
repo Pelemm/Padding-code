@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background: red; */
+}
+
+/* practising my padding and margin code  */
+.all {
+    display: flex;
+    justify-content: space-between;
+    /* flex-direction: row-reverse; */
+
+} 
+
+.all #boss {
+    border: 5px solid blue;
+    border-radius: 30px;
+    background-color: red;
+    /* margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px; */
+    margin: 30px;
+    padding: 40px;
+    box-shadow: 2px 8px 8px 2px;
+    transition: 1s ease-in-out;
+}
+
+.all #boss:hover{
+    background: green;
+    border: none;
+    transform: scale(1.1);
+    color: aliceblue;
+
+}
+
+.all #boss h1{
+    font-size: 20px;
+    text-align: center;
+}
+
+.all #boss p {
+    text-align: center;
+    font-size: 18px;
+}
+marquee{
+    color: red;
+    background-image: url(/IMG-20211128-WA0004.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+ 
+/* ! means Not */
